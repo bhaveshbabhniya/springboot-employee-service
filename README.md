@@ -29,7 +29,14 @@ This is a microservice built using **Spring Boot** and **MySQL**, designed to ha
 
 ## 📂 Project Structure
 
-employee_service/ ├── controller/ # REST Controllers ├── service/ # Business logic ├── repository/ # Spring Data JPA repositories ├── model/ # JPA entity classes ├── resources/ │ ├── application.properties # App configuration ├── EmployeeServiceApplication.java # Main Spring Boot class
+employee_service/ 
+├── controller/ # REST Controllers 
+├── service/ # Business logic 
+├── repository/ # Spring Data JPA repositories 
+├── model/ # JPA entity classes 
+├── resources/ │ 
+  ├── application.properties # App configuration 
+├── EmployeeServiceApplication.java # Main Spring Boot class
 
 ---
 
@@ -51,22 +58,20 @@ cd springboot-employee-service/employee_service
 ---
 
 ## ▶️ Run the Application
-
+```
 ./mvnw spring-boot:run
+```
 Or in Eclipse IDE, run EmployeeServiceApplication.java as a Java application.
 
 ---
 
 ## 📫 API Endpoints
 
-Method | Endpoint | Description
 GET | /api/employees | Get all employees
 GET | /api/employees/{id} | Get employee by ID
 POST | /api/employees | Create new employee
 POST | /api/employees/{id} | Update existing employee
 DELETE | /api/employees/{id} | Delete employee by ID
-
----
 
 ## 🧪 Postman Collection
 
