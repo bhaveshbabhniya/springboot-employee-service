@@ -34,8 +34,8 @@ employee_service/
 ├── service/ # Business logic 
 ├── repository/ # Spring Data JPA repositories 
 ├── model/ # JPA entity classes 
-├── resources/ │ 
-  ├── application.properties # App configuration 
+├── resources/
+│  ├── application.properties # App configuration 
 ├── EmployeeServiceApplication.java # Main Spring Boot class
 ```
 ---
@@ -67,17 +67,17 @@ Or in Eclipse IDE, run EmployeeServiceApplication.java as a Java application.
 
 ## 📫 API Endpoints
 ```
-GET | /api/employees  #Get all employees
-GET | /api/employees/{id}  #Get employee by ID
-POST | /api/employees  #Create new employee
-POST | /api/employees/{id}  #Update existing employee
-DELETE | /api/employees/{id}  #Delete employee by ID
+GET | /api/employees            #Get all employees
+GET | /api/employees/{id}       #Get employee by ID
+POST | /api/employees           #Create new employee
+POST | /api/employees/{id}      #Update existing employee
+DELETE | /api/employees/{id}    #Delete employee by ID
 ```
 ## 🧪 Postman Collection
 
 You can test the API using this ready-to-use Postman collection:
 
-👉 [Click here to view in Postman](https://.postman.co/workspace/My-Workspace~ca6d974d-a19d-44cf-8c3f-7961c0e57a26/collection/19566605-81120c97-bdd7-46d8-b64a-c8a883277135?action=share&creator=19566605)
+👉 [Click here to view in Postman](https://www.postman.com/lunar-module-observer-2885265/workspace/springboot/collection/19566605-96ae2f9f-70cd-40e0-a3a6-b80cfaa34b17?action=share&creator=19566605)
 
 To use:
 - Open the link
